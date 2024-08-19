@@ -1,0 +1,16 @@
+{ "SampleFileName": "cleaned_data.csv",
+   "NumberofColumns": 9,
+   "ColName":{
+
+            "Age":"INTEGER",
+            "Gender":"INTEGER",
+            "Smoking":"INTEGER",
+            "Hx Smoking":"INTEGER",
+            "Hx Radiothreapy":"INTEGER",
+            "Focality":"INTEGER",
+            "Recurred":"INTEGER",
+            "Response_encoded":"INTEGER",
+            "T_encoded":"INTEGER"
+   }
+
+}

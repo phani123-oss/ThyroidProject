@@ -1,0 +1,38 @@
+model_selection:
+    model:
+      RandomForestClassifier:
+        search_param_grid:
+          max_features:
+           - 'sqrt'
+           - 'auto'
+          n_estimators:
+           - 100
+           - 200
+           - 300
+          criterion:
+           - 'gini'
+           - 'entropy'
+
+
+      KNeighborsClassifier:
+        search_param_grid:
+          n_neighbors:
+            - 3
+            - 5
+            - 7
+          metric:
+            - 'euclidean'
+            - 'manhatan'
+
+      DecisionTreeClassifier:
+        search_param_grid:
+          criterion:
+            - 'gini'
+            - 'entropy'
+          max_depth:
+            - 5
+            - 10
+            - 15
+          max_features:
+           - 'auto'
+           - 'sqrt'
